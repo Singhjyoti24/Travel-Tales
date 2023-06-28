@@ -1,0 +1,24 @@
+<%- include('partials/header'); -%>
+
+    <div class="head">
+        <h1 class="home-heading">Welcome to Travel Tales!</h1>
+        <h4 class="sub-heading">Travel is the best teacher. You see the world through different eyes and gain a broader
+            perspective.</h4>
+    </div>
+
+    <div class="main-content">
+        <% for(let i=0;i<posts.length;i++){ %>
+            <div class="post-card">
+                <h2 class="title">
+                    <%= posts[i].title.toUpperCase() %>
+                </h2>
+                <img src="/images/<%=posts[i].imageUrl %>" alt="posted-image">
+                <p>
+                    <%= posts[i].description %>
+                </p>
+                <h5>Budget: $<%= posts[i].budget %>
+                </h5>
+            </div>
+            <% } %>
+    </div>
+    <!-- <%- include('partials/footer'); -%> -->

@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #164b60;
+    color: white;
+}
+
+.list-items {
+    display: flex;
+    padding: 1.5% 35% 1.5% 20%;
+}
+
+.list-items li {
+    margin-left: 30%;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.head {
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.home-heading,
+.sub-heading {
+    color: #001c30;
+    display: flex;
+    justify-content: center;
+}
+
+.main-content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.post-card {
+    background-color: #1b6b93;
+    border-radius: 1em;
+    padding: 1em 1em 1em 1em;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.post-card h2 {
+    margin-bottom: 1%;
+}
+
+.post-card img {
+    margin-bottom: 1%;
+}
+
+.post-card p {
+    font-family: "Courier New", Courier, monospace;
+}
+
+label {
+    font-size: larger;
+    font-weight: bold;
+}
+
+form {
+    margin: 4% 18% 0% 18%;
+    background-color: #dafffb;
+    border-radius: 0.5em;
+    padding: 1em 1em 1em 1em;
+}
+
+.input-box {
+    width: 100%;
+    border: 2px solid #001c30;
+    border-radius: 0.5em;
+    height: 2.5em;
+    padding-left: 0.6em;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+}
+
+.image-upload {
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+}
+
+textarea {
+    border: 2px solid #001c30;
+    border-radius: 0.5em;
+    padding-left: 0.6em;
+    padding-top: 1em;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button:active {
+    background-color: #3e8e41;
+}
+
+.button:focus {
+    outline: none;
+}
+
+img {
+    width: 30%;
+    border: 2px solid #a2ff86;
+    border-radius: 0.5em;
+}
+
+.thank {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+footer {
+    background-color: #164b60;
+    display: flex;
+    justify-content: center;
+    color: white;
+}

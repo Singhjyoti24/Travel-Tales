@@ -1,0 +1,15 @@
+<%- include('partials/header'); -%>
+
+    <form action="/post" method="post" enctype="multipart/form-data">
+        <div class="form">
+            <label>Title:</label><br>
+            <input type="text" class="input-box" name="title">
+            <label>Upload the image:</label><br>
+            <input type="file" class="image-upload" name="imageUpload"><br>
+            <label>Description:</label><br>
+            <textarea name="desc" cols="111" rows="10"></textarea><br>
+            <label>Travel budget:</label><br>
+            <input type="text" class="input-box" name="budget">
+        </div>
+        <button type="submit" class="button">Post</button>
+    </form>

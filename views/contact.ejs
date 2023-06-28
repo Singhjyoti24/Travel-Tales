@@ -1,0 +1,13 @@
+<%- include('partials/header'); -%>
+
+    <form action="/contact" method="post">
+        <div class="form">
+            <label>Name:</label><br>
+            <input type="text" class="input-box" name="name">
+            <label>Email:</label><br>
+            <input type="email" class="input-box" name="email">
+            <label>Message:</label><br>
+            <textarea name="message" cols="111" rows="10"></textarea><br>
+        </div>
+        <button type="submit" class="button">Submit</button>
+    </form>
